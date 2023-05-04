@@ -145,7 +145,7 @@ class CI_Form_validation {
 		$this->_config_rules = $rules;
 
 		// Automatically load the form helper
-		$this->CI->load->helper('form');
+		$this->CI->load->helper('url');
 
 		log_message('info', 'Form Validation Class Initialized');
 	}
